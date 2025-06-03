@@ -1,0 +1,10 @@
+{
+  "name": "Tic Tac Toe Challenge",
+  "description": "Play Tic Tac Toe against a friend or the computer inside Farcaster.",
+  "icon": "./icon.png",
+  "url": "https://15kunal12.github.io/Tic-Tac-Toe/",
+  "version": "1.0.0",
+  "author": "Kunal",
+  "categories": ["game", "fun"],
+  "supportedFeatures": ["shareResults", "multiplayer"]
+}
