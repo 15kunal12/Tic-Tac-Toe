@@ -1,10 +1,20 @@
 {
-  "name": "Tic Tac Toe Challenge",
-  "description": "Play Tic Tac Toe against a friend or the computer inside Farcaster.",
-  "icon": "./icon.png",
-  "url": "https://15kunal12.github.io/Tic-Tac-Toe/",
-  "version": "1.0.0",
-  "author": "Kunal",
-  "categories": ["game", "fun"],
-  "supportedFeatures": ["shareResults", "multiplayer"]
+  "name": "Tic Tac Toe",
+  "description": "A fun and classic Tic Tac Toe game. Play with a friend or challenge the computer with different difficulty levels.",
+  "homepage_url": "https://tic-tac-toe-5nph.vercel.app/",
+  "icons": [
+    {
+      "src": "https://15kunal12.github.io/Tic-Tac-Toe/assets/icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "frame": {
+    "post_url": "https://tic-tac-toe-5nph.vercel.app/api/frame",
+    "buttons": [
+      { "label": "Play with Friend" },
+      { "label": "Play with Computer" }
+    ],
+    "aspect_ratio": "1:1"
+  }
 }
